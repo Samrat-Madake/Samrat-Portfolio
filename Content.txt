@@ -1,0 +1,63 @@
+Samrat Madake
+Kolhapur, Maharashtra, India
+Phone: +91 9921347670
+Email: samratmadake21@gmail.com
+LinkedIn:  linkedin.com/in/samrat-madake
+GitHub: github.com/Samrat-Madake
+
+
+Profile
+Computer Science and Engineering (Data Science) student with a strong foundation in software development, Java, Python,
+and JavaScript. Experience in building scalable backend systems using the MERN stack and REST APIs. Built production
+style AI powered applications using Large Language Models (LLMs), RAG pipelines, LangGraph, vector databases, and LLMs.
+Cognizant Technoverse 2026 Top 5 Finalist.
+
+
+Education
+KIT’s College of Engineering Kolhapur (Empowered Autonomous) 2023 - 2027
+B.Tech Computer Science and Engineering (Data Science) CGPA: 8.96/10.0
+
+
+Projects
+Sanjeevani: Healthcare Interoperability Platform May 2026
+• Built a consent based FHIR R4 patient record sharing platform using FastAPI, LangGraph, AWS (Bedrock, S3, DynamoDB,
+OpenSearch) and GraphRAG using Neo4j, with RBAC and JWT authentication, addressing fragmented EHR
+systems.
+• LangGraph multi node pipeline: entity extraction → Neo4j Knowledge Graph + OpenSearch vectors → hybrid RAG →
+HITL validation → FHIR bundles.
+• HIPAA enforced via PHI redaction (AWS Bedrock Guardrails) and Human in the Loop to prevent hallucinations.
+• Hybrid retrieval (graph + semantic search) delivers clinical summaries in <3s.
+• § GitHub Repository : https://github.com/abhay-patil-cse27/healthcare_interoperability_medgraph
+
+
+Campus Mind: Multi-Tenant SaaS Platform | FastAPI, PostgreSQL, Pinecone, AWS,React.js Jan 2026
+• Transformed a single-college RAG chatbot into a multi tenant platform with complete data isolation across database
+(PostgreSQL), vector search (Pinecone) and file storage (S3).
+• Designed and deployed AWS infrastructure (RDS, S3, EC2, ElastiCache, CloudFront) with auto-scaling.
+• Implemented RBAC with JWT authentication.
+• Reduced student support response time from 24+ hours to under 2 minutes, improving user satisfaction and enabling 24/7
+availability across institutions.
+• § GitHub Repository :https://github.com/Samrat-Madake/Campus-Mind
+
+
+Department Connect: College Management Web Application | Node.js, MongoDB, Passport.js Sep 2025
+• Developed a full-stack departmental portal for colleges enabling HODs, Faculty and Students to manage announcements,
+documents and leave requests through role-specific dashboards.
+• Implemented RBAC system, Passport.js for session authentication, route-level authorization middleware.
+• § GitHub Repository :  https://github.com/Samrat-Madake/Department-Connect-
+
+Technical Skills
+Languages: Java, Python, JavaScript, SQL, C
+AI & LLM: LangChain, LangGraph, LangSmith, RAG Pipelines, Prompt Engineering, N8N, HuggingFace
+Web & Backend: REST APIs, Node.js, Express.js, React.js, FastAPI
+Databases: MongoDB, MySQL, Neo4j
+Tools: Git, GitHub, Postman, GitHub Copilot, Cursor, Claude Code
+Cloud(AWS): EC2, S3, RDS, IAM, Bedrock, CloudFront, ElastiCache
+DSA: Solved 350+ problems on LeetCode  Link
+Relevant Coursework: DSA, DBMS, ML, NLP, Deep Learning, Software Engineering
+
+
+Achievements
+Secured a place in Top 5 out of 5000+ teams at the Cognizant Technoverse Hackathon May 2026
+TSEC Need For Code 4.0: Winner (70+ teams), TSEC Mumbai Aug 2025
+Sinhgad Hackathon 2025: Runner-Up (50+ teams), SKN COE Pandharpur Mar 2025
