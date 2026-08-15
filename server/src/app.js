@@ -10,6 +10,8 @@ app.set('trust proxy', 1);
 
 const ALLOWED_ORIGINS = [
   process.env.FRONTEND_URL,
+  // Hardcoded fallback — update this if your frontend URL changes
+  'https://samrat-madake-portfolio.vercel.app',
   'http://localhost:5173',
   'http://localhost:4173',
 ].filter(Boolean);
@@ -19,7 +21,7 @@ app.use(
   cors({
     origin: (origin, cb) => {
       if (!origin || ALLOWED_ORIGINS.includes(origin)) return cb(null, true);
-      cb(null, false);
+      cb(new Error(`CORS: Origin '${origin}' not allowed`));
     },
     methods: ['GET', 'POST', 'PATCH', 'DELETE'],
     allowedHeaders: ['Content-Type', 'X-Admin-Key', 'Authorization'],

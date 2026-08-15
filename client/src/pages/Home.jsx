@@ -90,7 +90,7 @@ const Home = () => {
         >
           <div className="flex justify-center space-x-3 sm:space-x-4">
             <a
-              href="https://drive.google.com/file/d/1uYlpotPGaqeUa9nI5lMIlJDYc5hccvGB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1hLTCFH4FYoi7Eu6ICb0Wvp4wb0NnBMaS/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 sm:px-6 py-2.5 sm:py-3 bg-white text-black rounded-full text-sm sm:text-base font-medium hover:bg-gray-100 transition-colors flex items-center gap-2"
