@@ -161,11 +161,11 @@ const Contact = () => {
       label: "Location",
       value: CONTACT_INFO.location,
     },
-    {
-      icon: <Clock className="w-5 h-5" />,
-      label: "Time Zone",
-      value: CONTACT_INFO.timezone,
-    },
+    // {
+    //   icon: <Clock className="w-5 h-5" />,
+    //   label: "Time Zone",
+    //   value: CONTACT_INFO.timezone,
+    // },
   ].filter(Boolean);
 
   const socialLinks = [
@@ -300,7 +300,7 @@ const Contact = () => {
               </div>
             </motion.div>
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
@@ -314,7 +314,7 @@ const Contact = () => {
                 <p>{OFFICE_HOURS.saturday}</p>
                 <p>{OFFICE_HOURS.sunday}</p>
               </div>
-            </motion.div>
+            </motion.div> */}
           </div>
 
           {/* Right: form box — pending card lives inside here */}
