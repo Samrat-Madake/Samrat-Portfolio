@@ -61,11 +61,11 @@ const skills = [
     items: [
       { name: "LangChain", icon: <Terminal className="w-5 h-5 text-green-400" /> },
       { name: "LangGraph", icon: <Network className="w-5 h-5 text-blue-400" /> },
+      { name: "LangSmith", icon: <Search className="w-5 h-5 text-teal-400" /> },
       { name: "RAG Pipelines", icon: <Layers className="w-5 h-5 text-purple-400" /> },
       { name: "Prompt Engineering", icon: <Terminal className="w-5 h-5 text-gray-300" /> },
       { name: "MCP", icon: <Network className="w-5 h-5 text-purple-300" /> },
       { name: "HuggingFace", icon: <Activity className="w-5 h-5 text-yellow-400" /> },
-      { name: "LangSmith", icon: <Search className="w-5 h-5 text-teal-400" /> },
       { name: "N8N", icon: <Network className="w-5 h-5 text-orange-400" /> },
     ],
   },
